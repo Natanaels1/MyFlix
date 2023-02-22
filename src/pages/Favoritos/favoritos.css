@@ -1,0 +1,86 @@
+.meus-filmes {
+    width: 100%;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.meus-filmes h1 {
+    color: #FFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.meus-filmes span {
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 14px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.meus-filmes li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.meus-filmes img {
+    object-fit: cover;
+    width: 50%;
+    min-width: 80%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 14px;
+}
+
+.meus-filmes button {
+    padding: 5px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.meus-filmes button:hover {
+    background-color: #5f5de9;
+    color: #FFF;
+}
+
+.meus-filmes a {
+    padding: 5px 20px;
+    background-color: #3a38f0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.meus-filmes a:hover {
+    background-color: #5f5de9;
+}
+
+.meus-filmes div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nenhum-salvo {
+    font-size: 22px;
+    color: #5f5de9;
+    margin-bottom: 14px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

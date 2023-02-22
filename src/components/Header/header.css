@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: #1f1f20;
+    //background-color: #000039;
+    position: fixed;
+    top: -1px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: bold;
+    border-bottom: 4px solid #3a38f0;
+    padding: 2px;
+}
+
+.logo:hover {
+    border-bottom: 4px solid #5f5de9;
+}
+
+.favoritos {
+    text-decoration: none;
+    background-color: #3a38f0;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #FFFF;
+}
+
+.favoritos:hover {
+    background-color: #5f5de9;
+}
